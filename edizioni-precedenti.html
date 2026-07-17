@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Data Day — archivio delle edizioni precedenti della conferenza." />
+  <meta property="og:title" content="Data Day — Edizioni precedenti" />
+  <meta property="og:description" content="Rivivi le edizioni passate di Data Day." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dataday-conf.github.io/edizioni-precedenti.html" />
+  <meta name="robots" content="noindex" />
+  <title>Data Day — Edizioni precedenti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Salta al contenuto principale</a>
+
+  <nav class="navbar" aria-label="Navigazione principale">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Data Day home">
+        <img src="assets/logo/logo-data-day1.jpeg" alt="Data Day" class="navbar__logo-img" />
+      </a>
+
+      <ul class="navbar__links" id="navbar-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="sponsors.html">Sponsor</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="index.html#tickets" class="navbar__cta">Registrati</a></li>
+      </ul>
+
+      <button class="navbar__hamburger" id="navbar-hamburger" aria-label="Apri o chiudi il menu di navigazione" aria-expanded="false" aria-controls="navbar-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <h1>🗂 Edizioni precedenti</h1>
+      <p>Uno sguardo rapido agli anni passati della community Data Day.</p>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="section" aria-label="Archivio edizioni">
+      <div class="container">
+        <div id="editions-archive" class="about-grid" data-editions-index="data/editions.json" aria-live="polite" aria-label="Elenco delle edizioni precedenti">
+          <!-- Rendered by editions.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="navbar__logo" aria-label="Data Day home">
+          <img src="assets/logo/logo-data-day1.jpeg" alt="Data Day" class="navbar__logo-img" />
+        </a>
+        <p>La conferenza tecnica dedicata a dati, AI e sviluppo software per la community italiana.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Pagine</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="sponsors.html">Sponsor</a></li>
+          <li><a href="staff.html">Staff</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Evento</h4>
+        <ul>
+          <li><a href="index.html#about">Chi siamo</a></li>
+          <li><a href="index.html#location">Location</a></li>
+          <li><a href="index.html#tickets">Registrazione</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Community</h4>
+        <ul>
+          <li><a href="https://twitter.com/datadayconf" target="_blank" rel="noopener noreferrer">Twitter / X</a></li>
+          <li><a href="https://linkedin.com/company/dataday" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/dataday-conf" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 Data Day Conference. Tutti i diritti riservati.</p>
+      <p>Made with ❤️ by the community</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/editions.js"></script>
+</body>
+</html>

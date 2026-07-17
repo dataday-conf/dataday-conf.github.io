@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Data Day — la conferenza tecnica dedicata a dati, AI e sviluppo software. Prima edizione." />
+  <meta property="og:title" content="Data Day Conference" />
+  <meta property="og:description" content="Data Day: la prima edizione della conferenza su dati, AI e sviluppo, con talk, workshop e community." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dataday-conf.github.io" />
+  <title>Data Day — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Salta al contenuto principale</a>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" aria-label="Navigazione principale">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Data Day home">
+        <img src="assets/logo/logo-data-day4.png" alt="Data Day" class="navbar__logo-img" />
+      </a>
+
+      <ul class="navbar__links" id="navbar-links" role="list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="sponsors.html">Sponsor</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="#tickets" class="navbar__cta">Registrati</a></li>
+      </ul>
+
+      <button class="navbar__hamburger" id="navbar-hamburger" aria-label="Apri o chiudi il menu di navigazione" aria-expanded="false" aria-controls="navbar-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+
+  <!-- ========== HERO ========== -->
+  <header class="hero">
+    <div class="container" style="position:relative;z-index:1;">
+      <div class="hero__eyebrow">
+        <span>📊</span>
+        <span>Prima edizione</span>
+      </div>
+
+      <h1>La conferenza tecnica<br>dedicata ai <span class="highlight">dati</span></h1>
+
+      <p class="hero__subtitle">
+        Una giornata di talk, workshop e networking su dati, AI e sviluppo software, pensata per una community aperta, inclusiva e in continua crescita.
+      </p>
+
+      <div class="hero__meta">
+        <div class="hero__meta-item">
+          <span class="icon" aria-hidden="true">📅</span>
+          <span>Data da definire</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="icon" aria-hidden="true">📍</span>
+          <span>Location da definire</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="icon" aria-hidden="true">⏱</span>
+          <span>Orari da definire</span>
+        </div>
+      </div>
+
+      <div class="hero__actions">
+        <a
+          id="register-hero-cta"
+          href="#tickets"
+          class="btn btn--primary"
+          data-registration-cta="true"
+          data-editions-index="data/editions.json"
+          data-edition="2026"
+          data-registration-message-target="registration-status-hero"
+        >
+          <span>Registrati ora</span>
+          <span aria-hidden="true">→</span>
+        </a>
+        <a href="agenda.html" class="btn btn--outline">
+          <span>Guarda l'agenda</span>
+        </a>
+      </div>
+      <p id="registration-status-hero" class="registration-status" hidden aria-live="polite"></p>
+    </div>
+  </header>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats" aria-label="Statistiche della conferenza">
+    <div class="stats__grid container">
+      <div class="stats__item">
+        <span class="stats__number">20+</span>
+        <span class="stats__label">Speaker</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__number">3</span>
+        <span class="stats__label">Track</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__number">100+</span>
+        <span class="stats__label">Partecipanti</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__number">1</span>
+        <span class="stats__label">Giornata</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <h2>Cos'è Data Day?</h2>
+        <p>Una conferenza pensata per sviluppatori, by developers for developers, dedicata al mondo dei dati: dall'ingegneria dei dati all'AI, celebrando la collaborazione e la crescita della community.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-card__icon" aria-hidden="true">🎤</div>
+          <h3>Talk tecnici</h3>
+          <p>Speaker di livello nazionale e internazionale affrontano argomenti concreti e di frontiera dello sviluppo software.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-card__icon" aria-hidden="true">🛠</div>
+          <h3>Workshop pratici</h3>
+          <p>Sessioni hands-on per sporcarsi le mani con le tecnologie più interessanti del momento.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-card__icon" aria-hidden="true">🤝</div>
+          <h3>Networking</h3>
+          <p>Spazi dedicati per incontrare altri sviluppatori, condividere esperienze e costruire connessioni professionali.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-card__icon" aria-hidden="true">🌍</div>
+          <h3>Community</h3>
+          <p>Un evento organizzato dalla community, per la community. Gratuito o a costo contenuto, accessibile a tutti.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EVENT DETAILS ========== -->
+  <section class="section section--alt" id="event">
+    <div class="container">
+      <div class="feature">
+        <div class="feature__content">
+          <h2>Un giorno dedicato al <span style="color:var(--color-primary)">tuo</span> percorso nei dati</h2>
+          <p>Data Day nasce dall'idea che la crescita professionale passa anche dallo scambio con i propri pari. L'evento si svolge in una giornata intensa, ricca di contenuti di qualità su dati e AI e di momenti informali, con l'obiettivo di creare legami duraturi nella community.</p>
+          <ul class="feature__list">
+            <li>3 track tecniche + 1 workshop pratico</li>
+            <li>Speaker selezionati dalla community</li>
+            <li>Solo slot da 40 minuti + 5 minuti di domande</li>
+            <li>Pranzo e coffee break inclusi</li>
+            <li>Streaming live per chi non può essere presente</li>
+          </ul>
+        </div>
+        <div class="feature__visual" aria-hidden="true">
+          <img src="assets/logo/logo-data-day4.png" alt="" class="feature__visual-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CURRENT SPONSORS ========== -->
+  <section
+    class="section"
+    id="home-sponsors"
+    data-editions-index="data/editions.json"
+    data-edition="2026"
+    hidden
+  >
+    <div class="container">
+      <div class="section__header">
+        <h2 id="home-sponsors-title">Gli sponsor che ci supportano</h2>
+        <p id="home-sponsors-description">Aziende che hanno scelto di essere al fianco della community Data Day.</p>
+      </div>
+
+      <div id="home-sponsors-container" aria-live="polite" aria-label="Sponsor attuali in home page"></div>
+
+      <div class="text-center mt-3">
+        <a id="home-sponsors-cta" href="sponsors.html" class="btn btn--outline">Scopri tutti i pacchetti sponsor</a>
+        <a href="mailto:info@dataday.it?subject=Candidatura%20sponsor" class="btn btn--primary">Diventa sponsor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CFP ========== -->
+  <section
+    class="section"
+    id="cfp"
+    hidden
+    data-cfp-config="data/editions.json"
+    data-edition="2026"
+  >
+    <div class="container">
+      <div class="cta-banner cfp-banner">
+        <h2 id="cfp-title">Call for Papers aperta</h2>
+        <p>
+          Condividi la tua esperienza con la community: stiamo cercando talk che ispirino confronto,
+          collaborazione e unione tra professionisti con background diversi.
+        </p>
+        <p class="cfp-banner__deadline"><strong>Chiusura CFP:</strong> <span id="cfp-deadline"></span></p>
+        <a id="cfp-link" href="#" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          Invia la tua proposta →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOCATION ========== -->
+  <section class="section" id="location" data-editions-index="data/editions.json" data-edition="2026">
+    <div class="container">
+      <div class="section__header">
+        <h2 id="location-title">Location</h2>
+        <p id="location-description">La sede della prima edizione di Data Day verrà comunicata a breve.</p>
+      </div>
+
+      <div style="background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;" role="region" aria-label="Dettagli location">
+        <div>
+          <h3 id="location-city" style="margin-bottom:1rem;">📍 Da definire</h3>
+          <p style="margin-bottom:0.5rem;"><strong id="location-address-label" style="color:var(--color-text);">Indirizzo:</strong></p>
+          <p id="location-address" style="margin-bottom:1rem;">Da definire — la sede verrà comunicata nelle prossime settimane.</p>
+          <p style="margin-bottom:0.5rem;"><strong id="location-transport-label" style="color:var(--color-text);">Come arrivare:</strong></p>
+          <p id="location-transport">Informazioni su come raggiungere la sede in arrivo.</p>
+        </div>
+        <div id="location-map-container" style="background:var(--color-bg);border-radius:var(--radius-md);padding:1rem;min-height:280px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.75rem;">
+          <iframe
+            id="location-map-embed"
+            title="Mappa location"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            style="width:100%;height:280px;border:0;border-radius:8px;display:none;"
+          ></iframe>
+          <div id="location-map-fallback" style="text-align:center;font-size:4rem;line-height:1;">🗺</div>
+          <a id="location-map-link" href="#" target="_blank" rel="noopener noreferrer" style="display:none;">Apri la mappa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA / TICKETS ========== -->
+  <section class="section section--alt" id="tickets">
+    <div class="container">
+      <div class="cta-banner">
+        <h2 id="tickets-title">Prenota il tuo posto</h2>
+        <p id="tickets-description">I posti sono limitati. Registrati ora per assicurarti un posto alla prima edizione di Data Day!</p>
+        <a
+          id="register-tickets-cta"
+          href="#"
+          class="btn btn--primary"
+          aria-label="Registrati a Data Day"
+          data-registration-cta="true"
+          data-editions-index="data/editions.json"
+          data-edition="2026"
+          data-registration-message-target="registration-status-tickets"
+        >
+          Registrati gratuitamente →
+        </a>
+        <p id="registration-status-tickets" class="registration-status" hidden aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="navbar__logo" aria-label="Data Day home">
+          <img src="assets/logo/logo-data-day4.png" alt="Data Day" class="navbar__logo-img" />
+        </a>
+        <p>La conferenza tecnica dedicata a dati, AI e sviluppo software per la community italiana.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Pagine</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="sponsors.html">Sponsor</a></li>
+          <li><a href="staff.html">Staff</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Evento</h4>
+        <ul>
+          <li><a href="#about">Chi siamo</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#tickets">Registrazione</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Community</h4>
+        <ul>
+          <li><a href="https://twitter.com/datadayconf" target="_blank" rel="noopener noreferrer">Twitter / X</a></li>
+          <li><a href="https://linkedin.com/company/dataday" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/dataday-conf" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 Data Day Conference. Tutti i diritti riservati.</p>
+      <p>Made with ❤️ by the community</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

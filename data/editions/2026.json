@@ -1,0 +1,138 @@
+{
+  "agenda": {
+    "enabled": true,
+    "sessionizeApiUrl": "",
+    "subtitle": "Il programma della prima edizione di Data Day. Presto online: track, sessioni e speaker."
+  },
+  "cfp": {
+    "enabled": false,
+    "title": "Call for Papers Data Day 2026",
+    "close": "",
+    "link": "https://sessionize.com/dataday-2026/"
+  },
+  "registration": {
+    "enabled": false,
+    "url": "",
+    "openCtaLabel": "Registrati gratuitamente →",
+    "closedCtaLabel": "Registrazione non ancora aperta",
+    "openSectionTitle": "Prenota il tuo posto",
+    "openSectionDescription": "I posti sono limitati. Registrati ora per assicurarti un posto alla prima edizione di Data Day!",
+    "closedSectionTitle": "Registrazione prossimamente disponibile",
+    "closedSectionDescription": "Le iscrizioni non sono ancora aperte. Ti aggiorneremo appena sarà possibile registrarsi.",
+    "closedMessage": "La registrazione non è ancora aperta. Torna presto per assicurarti un posto."
+  },
+  "logistics": {
+    "sectionTitle": "Location",
+    "sectionDescription": "La sede della prima edizione di Data Day verrà comunicata a breve.",
+    "city": "Da definire",
+    "addressLabel": "Indirizzo:",
+    "address": "Da definire — la sede verrà comunicata nelle prossime settimane.",
+    "transportLabel": "Come arrivare:",
+    "transport": "Informazioni su come raggiungere la sede in arrivo.",
+    "map": {
+      "embedUrl": "",
+      "linkUrl": "",
+      "linkLabel": "Apri la mappa",
+      "ariaLabel": "Mappa della location dell'evento"
+    }
+  },
+  "sponsors": {
+    "pageContent": {
+      "currentSponsorsTitle": "Sponsor attuali",
+      "currentSponsorsDescription": "Le aziende confermate per la prima edizione di Data Day.",
+      "packagesSectionTitle": "Diventa sponsor",
+      "packagesSectionDescription": "Scegli il livello più adatto alla tua azienda e supporta la community Data Day."
+    },
+    "homepageContent": {
+      "title": "Gli sponsor che ci supportano",
+      "description": "Aziende che hanno scelto di essere al fianco della community Data Day.",
+      "ctaLabel": "Scopri tutti i pacchetti sponsor",
+      "ctaHref": "sponsors.html",
+      "listAriaLabel": "Sponsor attuali in home page"
+    },
+    "tiers": [
+      {
+        "name": "Diamond",
+        "price": "€2.000 + IVA",
+        "benefits": [
+          "Workshop tecnico dedicato (2 ore, mattina e/o pomeriggio)",
+          "Visibilità come partner principale su tutta la comunicazione",
+          "Canale preferenziale con il team organizzatore",
+          "Tutti i vantaggi del livello Platinum",
+          "4 ingressi omaggio"
+        ],
+        "sponsors": []
+      },
+      {
+        "name": "Platinum",
+        "price": "€1.000 + IVA",
+        "benefits": [
+          "Presentazione aziendale durante il keynote",
+          "Slot talk in una track (45 minuti)",
+          "Alta visibilità del logo su sito, slide e materiali",
+          "Tutti i vantaggi del livello Gold",
+          "4 ingressi omaggio"
+        ],
+        "sponsors": []
+      },
+      {
+        "name": "Gold",
+        "price": "€500 + IVA",
+        "benefits": [
+          "Desk espositivo con branding personalizzato",
+          "Possibilità di recruiting durante l'evento",
+          "Tutti i vantaggi del livello Silver",
+          "2 ingressi omaggio"
+        ],
+        "sponsors": []
+      },
+      {
+        "name": "Silver",
+        "price": "€300 + IVA",
+        "benefits": [
+          "Logo su sito, slide, materiali stampati",
+          "Lista iscritti (nel rispetto del GDPR) per recruiting",
+          "Menzioni social prima, durante e dopo l'evento"
+        ],
+        "sponsors": []
+      }
+    ]
+  },
+  "sponsorshipPack": {
+    "title": "Pacchetti sponsor Data Day",
+    "subtitle": "DATA DAY · Prima edizione · Community di sviluppatori",
+    "note": "Quattro livelli, con vantaggi crescenti: ogni livello include anche i vantaggi dei livelli inferiori."
+  },
+  "staff": [
+    {
+      "id": 1,
+      "firstName": "Ivano",
+      "lastName": "Scifoni",
+      "role": "Co-organizer",
+      "photo": "https://media.licdn.com/dms/image/v2/D4D03AQGIhTaBHVFkCA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720706784778?e=1784764800&v=beta&t=5iTcccZrPpfC6N4wQe34GDVw9e0k1Xhe1d95cig0vv0",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/ivano-scifoni/"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Emanuele",
+      "lastName": "Garofalo",
+      "role": "Co-organizer",
+      "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFHcO-uhqrxQA/profile-displayphoto-scale_400_400/B4DZ8EmATKGkAg-/0/1782488502551?e=1784764800&v=beta&t=1VngWpbt8dzGzsbcCMIul4DQ7dCLm2K9ceu50y0CiSE",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/emanuele-garofalo/"
+      }
+    },
+    {
+      "id": 3,
+      "firstName": "Alessio",
+      "lastName": "Iafrate",
+      "role": "Co-organizer",
+      "photo": "https://media.licdn.com/dms/image/v2/D4D03AQET6reKVU-UJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1691501807108?e=1784764800&v=beta&t=ab-rGz8goV6pnAa8LbCdQ_5QbKqrdHQHtZ17_1GG66M",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/alessio-iafrate/"
+      }
+    }
+  ]
+}
